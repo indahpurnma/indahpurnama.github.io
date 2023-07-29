@@ -46,9 +46,10 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/contoh.jpg" alt="cuma contoh" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/indah.jpg" alt="indah" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Indah Purnama</h1>
       <p class="lead">Pelajar | Rekayasa Perangkat Lunak</p>
+      <p><a href="file:///C:/Users/lenovo/Downloads/cv.pdf">Funny Tales of Me: CV Edition!</a></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -69,10 +70,18 @@
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsum explicabo, qui sed quae illum mollitia officiis odio unde tempore.</p>
+            <p>
+              Halo! Nama saya Indah Purnama, saya adalah seorang pelajar yang bersemangat dan berbakat dalam dunia desain kreatif. Meskipun dalam proses belajar, saya mengembangkan minat mendalam dalam desain grafis, UI/UX, dan ilustrasi.
+              Di sela - sela tugas sekolah, saya menyempatkan waktu untuk menciptakan berbagai proyek kreatif. Dari membuat mockup untuk aplikasi presensi hingga membuat desain UI Landing Page, saya selalu berusaha memberikan sentuhan
+              kreatif dalam setiap proyek yang saya kerjakan.
+            </p>
           </div>
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nam quia, quisquam excepturi eos possimus aut? Optio quae officiis suscipit tempore laboriosam ad? At, eius.</p>
+            <p>
+              Dalam portfolio ini, saya berbagi beberapa proyek desain saya yang mencerminkan perjalanan dan perkembangan kreatif saya sebagai seorang pelajar. Saya berharap portfolio ini dapat memberikan gambaran tentang minat dan potensi
+              saya sebagai seorang desainer masa depan. Terima kasih telah memberikan kesempatan untuk berbagi portfolio saya meskipun saya masih seorang pelajar. Saya sangat bersemangat untuk terus belajar dan mengasah kemampuan desain
+              saya untuk mencapai tujuan karier yang lebih tinggi di masa depan.
+            </p>
           </div>
         </div>
       </div>
@@ -94,12 +103,12 @@
             <h2>My Projects</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
             <div class="card">
               <img src="img/projects/1.jpg" class="card-img-top" alt="Projects 1" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Membuat mockup bagian halaman login untuk aplikasi presensi yang sederhana di figma.</p>
               </div>
             </div>
           </div>
@@ -107,7 +116,7 @@
             <div class="card">
               <img src="img/projects/2.jpg" class="card-img-top" alt="Projects 2" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Dan ini halaman utama untuk aplikasi presensi guru dan siswa yang sederhana di figma.</p>
               </div>
             </div>
           </div>
@@ -115,7 +124,23 @@
             <div class="card">
               <img src="img/projects/3.jpg" class="card-img-top" alt="Projects 3" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Serta Halaman data siswa yang menampilkan tampilan list absensi siswa juga menggunakan perangkat lunak desain figma.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="img/projects/4.png" class="card-img-top" alt="Projects 4" />
+              <div class="card-body">
+                <p class="card-text">Dengan Canva, saya dapat menciptakan stiker sederhana untuk penjualan menjadi cepat dan mudah.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/5.png" class="card-img-top" alt="Projects 5" />
+              <div class="card-body">
+                <p class="card-text">Desain UI landing page movie, yang saya buat menggunakan perangkat lunak desain figma.</p>
               </div>
             </div>
           </div>
@@ -141,20 +166,29 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <form>
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="contact-form-portfolio">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Kirim</button>
+              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+
+              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
             </form>
           </div>
         </div>
@@ -178,5 +212,33 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyiCkGwcY9e4SsIPPHZVJOlsalWqZ-jDHL1m3W6ap_nmnnZBA5gt6NzPW9a3OhkZp4/exec';
+      const form = document.forms['contact-form-portfolio'];
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        // ketika tombol submit diklik
+        // tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            // tampilkan alert
+            myAlert.classList.toggle('d-none');
+            //reset formnya
+            form.reset();
+            console.log('Success!', response);
+          })
+          .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
   </body>
 </html>
